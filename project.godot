@@ -16,8 +16,15 @@ _global_script_class_icons={
 [application]
 
 config/name="endless"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=800
+window/size/height=640
 
 [rendering]
 
+environment/default_clear_color=Color( 0.721569, 0.929412, 1, 1 )
 environment/default_environment="res://default_env.tres"
